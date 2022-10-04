@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {
+        "@assets/*": [
+          "./shared/assets/brandA/*", 
+          "./shared/assets/default/*"
+        ],
+        "@components/*": [
+          "./shared/components/brandA/*", 
+          "./shared/components/default/*"
+        ],
+        "@library/*": ["./library/*"],
+        "@theme": [
+          "./shared/theme/brandA/*", 
+          "./shared/theme/default/*"
+        ],
+        "@pages/*": ["./shared/pages/*"],
+      }
+    }
+  }
